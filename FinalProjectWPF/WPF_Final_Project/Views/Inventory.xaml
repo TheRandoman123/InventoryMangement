@@ -188,10 +188,10 @@
         <TextBlock x:Name="price"  Grid.Row="10" 
             TextAlignment="Center" FontSize="50" Foreground="#16BF83" 
 
-            Text="25" Margin="0,39,0,24" HorizontalAlignment="Center" 
-            Width="106" Grid.Column="2"/>
-      
-        
+            Text="25" Margin="148,37,44,26" HorizontalAlignment="Center" 
+            Width="130" Grid.Column="1" Grid.ColumnSpan="3"/>
+
+
         <TextBlock x:Name="Location"  Grid.Row="10" 
                    TextAlignment="Center" FontSize="50" Foreground="#16BF83" 
                    Text="03R05" Margin="0,39,0,24" HorizontalAlignment="Right" 
@@ -200,16 +200,6 @@
         <TextBlock Grid.Row="10"  Text="Location" FontSize="30" 
             TextAlignment="Center" Foreground="Black"  
             HorizontalAlignment="Right" Width="116" Grid.Column="11" Margin="0,0,30,92"/>
-        <Rectangle x:Name="PriceArea_Copy" Width="Auto" Height="Auto" 
-            Grid.ColumnSpan="5" Stroke="Black" StrokeThickness="2" Margin="10,-11,61,3" Grid.RowSpan="4">
-            <Rectangle.Fill>
-                <SolidColorBrush>
-                    <SolidColorBrush.Color>
-                        <Color A="255" R="255" G="255" B="255"/>
-                    </SolidColorBrush.Color>
-                </SolidColorBrush>
-            </Rectangle.Fill>
-        </Rectangle>
 
 
     </Grid>
