@@ -143,15 +143,15 @@
 
         <TextBlock x:Name="numberOnHandTextBlock"  Grid.Row="6" Grid.Column="6" 
                    TextAlignment="Center"  FontSize="80" Foreground="#16BF83" 
-                   Text="25" Margin="0,10,0,0" Grid.RowSpan="2" Grid.ColumnSpan="3"/>
+                   Text="" Margin="0,10,0,0" Grid.RowSpan="2" Grid.ColumnSpan="3"/>
 
         <TextBlock x:Name="numberInHastingsTextBlock"  Grid.Row="9" 
                    TextAlignment="Center" FontSize="50" Foreground="#16BF83" 
-                   Text="25" Margin="0,0,22,10" HorizontalAlignment="Right" 
+                   Text="" Margin="0,0,22,10" HorizontalAlignment="Right" 
                    Width="106" Grid.Column="3" Grid.ColumnSpan="2"/>
 
         <TextBlock x:Name="numberInKalamazoo" Grid.Row="8" Grid.Column="10" TextAlignment="Center" FontSize="50"
-                   Foreground="#16BF83" Text="25" Margin="0,53,0,10" 
+                   Foreground="#16BF83" Text="" Margin="0,53,0,10" 
                    HorizontalAlignment="Right" Width="88" RenderTransformOrigin="1.24,1.333" Grid.RowSpan="2"/>
 
         <TextBlock Grid.Row="8" Grid.Column="11"  Text="Kalamazoo" FontSize="24" 
@@ -188,13 +188,13 @@
         <TextBlock x:Name="price"  Grid.Row="10" 
             TextAlignment="Center" FontSize="50" Foreground="#16BF83" 
 
-            Text="25" Margin="148,37,44,26" HorizontalAlignment="Center" 
-            Width="130" Grid.Column="1" Grid.ColumnSpan="3"/>
+            Text="" Margin="95,40,95,23" HorizontalAlignment="Center" 
+            Width="236" Grid.Column="1" Grid.ColumnSpan="4"/>
 
 
         <TextBlock x:Name="Location"  Grid.Row="10" 
                    TextAlignment="Center" FontSize="50" Foreground="#16BF83" 
-                   Text="03R05" Margin="0,39,0,24" HorizontalAlignment="Right" 
+                   Text="" Margin="0,39,0,24" HorizontalAlignment="Right" 
                    Width="433" Grid.Column="9" RenderTransformOrigin="0.542,0.462" Grid.ColumnSpan="4"/>
 
         <TextBlock Grid.Row="10"  Text="Location" FontSize="30" 

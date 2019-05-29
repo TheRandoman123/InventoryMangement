@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using System.Windows.Input;
 using System.Windows.Media.Imaging;
 using static WPF_Final_Project.Server;
+using System.Drawing;
 // ReSharper disable All
 
 namespace WPF_Final_Project.Views
@@ -29,28 +30,38 @@ namespace WPF_Final_Project.Views
 
                 if (count == 7)
                 {
-                    File.Delete(@"C:\Users\Public\Documents\Product.png");
                     Product product = (Product)SKULookup(items);
                     numberOnHandTextBlock.Text = product.QuantityOnHand.ToString();
                     numberInHastingsTextBlock.Text = product.QuantityInHastings.ToString();
                     numberInKalamazoo.Text = product.QuantityInKalamazoo.ToString();
                     price.Text = product.Price.ToString();
                     Location.Text = product.Location.ToString();
-                    FormatImage(product.Photo);
-                    Picture.Source = Picture.Source = new BitmapImage(new Uri(@"C:\Users\Public\Documents\Product.png"));
+
+                    byte[] binaryData = Convert.FromBase64String(product.Photo);
+                    BitmapImage bi = new BitmapImage();
+                    bi.BeginInit();
+                    bi.StreamSource = new MemoryStream(binaryData);
+                    bi.EndInit();
+                    Picture.Source = bi;
+
                 }
 
                 else if (count == 11 || count == 12)
                 {
-                    File.Delete(@"C:\Users\Public\Documents\Product.png");
                     Product product = (Product)UPCLookup(items);
                     numberOnHandTextBlock.Text = product.QuantityOnHand.ToString();
                     numberInHastingsTextBlock.Text = product.QuantityInHastings.ToString();
                     numberInKalamazoo.Text = product.QuantityInKalamazoo.ToString();
                     price.Text = product.Price.ToString();
                     Location.Text = product.Location.ToString();
-                    FormatImage(product.Photo);
-                    Picture.Source = Picture.Source = new BitmapImage(new Uri(@"C:\Users\Public\Documents\Product.png"));
+
+                    byte[] binaryData = Convert.FromBase64String(product.Photo);
+                    BitmapImage bi = new BitmapImage();
+                    bi.BeginInit();
+                    bi.StreamSource = new MemoryStream(binaryData);
+                    bi.EndInit();
+                    Picture.Source = bi;
+
                 }
 
                 else
@@ -95,16 +106,6 @@ namespace WPF_Final_Project.Views
             Product product = (Product)GetUPCInfo(full_UPC);
             return product;
         }
-
-        public static void FormatImage(string Base64String)
-        {
-            byte[] imgBytes = Convert.FromBase64String(Base64String);
-
-            using (var imageFile = new FileStream(@"C:\Users\Public\Documents\Product.png", FileMode.Create))
-            {
-                imageFile.Write(imgBytes, 0, imgBytes.Length);
-                imageFile.Flush();
-            }
-        }
+ 
     }
 }
