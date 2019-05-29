@@ -6,7 +6,7 @@
         xmlns:viewmodels="clr-namespace:WPF_Final_Project.ViewModels"
         xmlns:views="clr-namespace:WPF_Final_Project.Views"
         mc:Ignorable="d" FontSize="18" FontFamily="Arial"
-        Title="BMC" Height="819" Width="1463">
+        Title="BMC" Height="819" Width="1463" WindowState="Maximized">
 
     <Window.Resources>
         <DataTemplate x:Name="InventoryTemplate" DataType="{x:Type viewmodels:InventoryViewModel}">

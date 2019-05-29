@@ -29,3 +29,34 @@ D:\FinalProjectWPF\WPF_Final_Project\obj\Release\WPF_Final_Project.csproj.Genera
 D:\FinalProjectWPF\WPF_Final_Project\obj\Release\WPF_Final_Project.csproj.CoreCompileInputs.cache
 D:\FinalProjectWPF\WPF_Final_Project\obj\Release\WPF_Final_Project.exe
 D:\FinalProjectWPF\WPF_Final_Project\obj\Release\WPF_Final_Project.pdb
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\bin\Release\LocalDatabase.mdf
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\bin\Release\LocalDatabase_log.ldf
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\bin\Release\WPF_Final_Project.exe.config
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\bin\Release\WPF_Final_Project.exe
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\bin\Release\WPF_Final_Project.pdb
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\WPF_Final_Project.csprojAssemblyReference.cache
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\MainWindow.g.cs
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\Views\Audits.g.cs
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\Views\EmergencyRegister.g.cs
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\Views\Inventory.g.cs
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\Views\Reports.g.cs
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\Views\TagCreator.g.cs
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\Views\Users.g.cs
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\App.g.cs
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\WPF_Final_Project_Content.g.cs
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\WPF_Final_Project_MarkupCompile.cache
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\WPF_Final_Project_MarkupCompile.lref
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\MainWindow.baml
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\Views\Audits.baml
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\Views\EmergencyRegister.baml
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\Views\Inventory.baml
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\Views\Reports.baml
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\Views\TagCreator.baml
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\Views\Users.baml
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\WPF_Final_Project.g.resources
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\WPF_Final_Project.Properties.Resources.resources
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\WPF_Final_Project.csproj.GenerateResource.cache
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\WPF_Final_Project.csproj.CoreCompileInputs.cache
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\WPF_Final_Project.exe
+C:\Users\nerfs\Desktop\AZURE DEVOPS\InventoryMangement\FinalProjectWPF\WPF_Final_Project\obj\Release\WPF_Final_Project.pdb
