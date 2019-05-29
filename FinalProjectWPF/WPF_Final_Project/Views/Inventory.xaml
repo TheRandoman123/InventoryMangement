@@ -123,8 +123,8 @@
             </Rectangle.Fill>
         </Rectangle>
 
-        <Rectangle x:Name="LocationArea" Width="Auto" Height="Auto" Grid.Row="10" 
-            Grid.ColumnSpan="4" Stroke="Black" StrokeThickness="2" Grid.Column="9" Margin="221,0,0,0">
+        <Rectangle x:Name="LocationArea" Width="Auto" Height="Auto" Grid.Row="10"
+          Grid.ColumnSpan="4" Stroke="Black" StrokeThickness="2" Grid.Column="9" Margin="221,0,0,0">
             <Rectangle.Fill>
                 <SolidColorBrush>
                     <SolidColorBrush.Color>
@@ -134,16 +134,21 @@
             </Rectangle.Fill>
         </Rectangle>
 
+        <TextBlock x:Name="price"  Grid.Row="10"
+          TextAlignment="Center" FontSize="50" Foreground="#16BF83"
+          Text="25" Margin="0,39,10,24" HorizontalAlignment="Right"
+          Width="406" Grid.Column="1" Grid.ColumnSpan="4"/>
+
         <TextBlock Foreground="#16BF83" Grid.Row="1" Grid.Column="6" 
                    TextAlignment="Center"  FontSize="24" Text="Product Search" Grid.RowSpan="2" Grid.ColumnSpan="3" Margin="34,0,10,0"/>
 
 
         <TextBlock Grid.Row="5" Grid.Column="6" TextAlignment="Center" 
-                   FontSize="48" Foreground="Black" Text="Quantity" Margin="26,0,10,13" Grid.RowSpan="2" Grid.ColumnSpan="3"/>
+                   FontSize="48" Foreground="Black" Text="Quantity" Margin="0,0,0,13" Grid.RowSpan="2" Grid.ColumnSpan="3"/>
 
-        <TextBlock x:Name="numberOnHandTextBlock"  Grid.Row="6" Grid.Column="7" 
+        <TextBlock x:Name="numberOnHandTextBlock"  Grid.Row="6" Grid.Column="6" 
                    TextAlignment="Center"  FontSize="80" Foreground="#16BF83" 
-                   Text="25" Margin="42,10,32,0" Grid.RowSpan="2"/>
+                   Text="25" Margin="0,10,0,0" Grid.RowSpan="2" Grid.ColumnSpan="3"/>
 
         <TextBlock x:Name="numberInHastingsTextBlock"  Grid.Row="9" 
                    TextAlignment="Center" FontSize="50" Foreground="#16BF83" 
@@ -185,17 +190,11 @@
             TextAlignment="Center" Foreground="Black"  
             HorizontalAlignment="Right" Width="96" Grid.Column="2" Margin="0,0,5,94"/>
 
-        <TextBlock x:Name="price"  Grid.Row="10" 
-            TextAlignment="Center" FontSize="50" Foreground="#16BF83" 
-            Text="25" Margin="0,39,0,24" HorizontalAlignment="Right" 
-            Width="106" Grid.Column="2"/>
-
-
 
         <TextBlock x:Name="Location"  Grid.Row="10" 
                    TextAlignment="Center" FontSize="50" Foreground="#16BF83" 
                    Text="03R05" Margin="0,39,0,24" HorizontalAlignment="Right" 
-                   Width="171" Grid.Column="11" RenderTransformOrigin="0.542,0.462"/>
+                   Width="418" Grid.Column="10" RenderTransformOrigin="0.542,0.462" Grid.ColumnSpan="3"/>
 
         <TextBlock Grid.Row="10"  Text="Location" FontSize="30" 
             TextAlignment="Center" Foreground="Black"  
