@@ -18,62 +18,6 @@ namespace WPF_Final_Project
         {
             InitializeComponent();
 
-            uiScaleSlider.MouseDoubleClick += new MouseButtonEventHandler(RestoreScalingFactor);
-        }
-
-        void RestoreScalingFactor(object sender, MouseButtonEventArgs args)
-        {
-            ((Slider)sender).Value = 1.0;
-        }
-
-        protected override void OnPreviewMouseWheel(MouseWheelEventArgs args)
-
-        {
-
-            base.OnPreviewMouseWheel(args);
-
-
-            if (Keyboard.IsKeyDown(Key.LeftCtrl) || Keyboard.IsKeyDown(Key.RightCtrl))
-            {
-                uiScaleSlider.Value += args.Delta <= 0 ? -0.1 : 0.1;
-            }
-
-
-        }
-
-        protected override void OnPreviewMouseDown(MouseButtonEventArgs args)
-
-
-        {
-
-
-            base.OnPreviewMouseDown(args);
-
-
-            if (Keyboard.IsKeyDown(Key.LeftCtrl) ||
-
-
-                Keyboard.IsKeyDown(Key.RightCtrl))
-
-
-            {
-
-
-                if (args.MiddleButton == MouseButtonState.Pressed)
-
-
-                {
-
-
-                    RestoreScalingFactor(uiScaleSlider, args);
-
-
-                }
-
-
-            }
-
-
         }
 
         public void ChangeAllSelections(string whatWasClicked)

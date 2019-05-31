@@ -35,7 +35,7 @@
     </Window.Resources>
 
     <Grid x:Name="Grid">
-        
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="232"/>
             <ColumnDefinition/>
@@ -188,21 +188,17 @@
             Margin="45,21,65,23" Text="Audits" Foreground="#16BF83" FontSize="13" 
                    PreviewMouseDown="AuditSpace_PreviewMouseDown" MouseEnter="AuditSpace_MouseEnter" MouseLeave="AuditSpace_MouseLeave"/>
 
-        <DockPanel Grid.Row="1" Grid.Column="1" Grid.RowSpan="7">
-            <DockPanel.LayoutTransform>
-                <ScaleTransform 
-                    CenterX="0" CenterY="0"
-                    ScaleX="{Binding ElementName=uiScaleSlider,Path=Value}"
-                    ScaleY="{Binding ElementName=uiScaleSlider,Path=Value}"
-                    />
-            </DockPanel.LayoutTransform>
-            
-            <ContentControl  Content="{Binding}"/>
-        </DockPanel>
-        
+        <Viewbox Stretch="Fill" Grid.Column="1" Margin="5,0,0,0" Grid.RowSpan="7" Grid.Row="1">
+            <DockPanel Grid.Row="1" Grid.Column="1" Grid.RowSpan="7">
+                <DockPanel.LayoutTransform>
+                    <ScaleTransform
+                        CenterX="0" CenterY="0"
+                        ScaleX="{Binding ElementName=uiScaleSlider,Path=Value}"
+                        ScaleY="{Binding ElementName=uiScaleSlider,Path=Value}" />
+                </DockPanel.LayoutTransform>
 
-        <Slider x:Name="uiScaleSlider" ToolTip="Determines the UI scale factor." Minimum="0.1" Maximum="4" Grid.Column="1" 
-                VerticalAlignment="Bottom" Grid.Row="7"/>
-
+                <ContentControl Content="{Binding}" />
+            </DockPanel>
+        </Viewbox>
     </Grid>
 </Window>
